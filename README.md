@@ -1,0 +1,2 @@
+Moaid, a top CTF player from Saudi Arabia, was competing at Black Hat MEA 2025 in Riyadh. During the semi-finals, he stumbled upon a hidden message inside one of the CTF challenges   a message revealing that a rival team was cheating by exploiting vulnerabilities in the event’s infrastructure to sabotage other teams.
+Realizing the danger, Moaid tried to expose the rival team. But before he could, he disappeared mysteriously  his laptop and badge were left behind, but he was nowhere to be found.
