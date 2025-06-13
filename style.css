@@ -1,0 +1,260 @@
+body {
+  text-align: center;
+  background-color: #0a1e3f; /* dark navy blue */
+  font-size: 70px;
+  color: #cfdcff; /* light blue-ish text */
+}
+
+.container {
+  padding: 60px;
+}
+
+.ransom-note {
+  width: 90%;
+  margin: 30px 5% 0 5%;
+}
+
+.ransom-note .words {
+  display: block;
+  float: left;
+}
+
+/* Button inside ransom-note .words removed as it was nested incorrectly */
+/* Main button styling */
+
+button {
+  display: block;
+  margin: 150px auto 0; /* pushed lower (150px top margin) */
+  padding: 15px 40px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 8px;
+  clear: both;
+
+  background-color: #10294b; /* dark blue */
+  color: #a3cdfd; /* lighter blue text */
+  border: 2px solid #5ea0fc; /* medium blue border */
+  box-shadow: 
+    0 0 10px #5ea0fc, 
+    0 0 20px #3a79ff, 
+    0 0 30px #5ea0fc;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #184e8f;
+  color: #d0e7ff;
+  border-color: #87aefc;
+  box-shadow: 
+    0 0 15px #87aefc, 
+    0 0 25px #5ea0fc, 
+    0 0 35px #87aefc;
+}
+
+/* BEGIN TYPOGRAPHY */
+
+.ransom-note span span {
+  margin-left: 2px;
+  box-shadow: 1.5px 1.5px 0 rgba(0, 0, 30, 0.5), 0 0 40px rgba(0, 0, 50, 0.3) inset;
+  float: left;
+  display: block;
+}
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+1),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+5) {
+  font-family: Georgia, serif;
+  color: #3b3b3b; /* dark gray for soft yellow bg */
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+2),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+10) {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #224466; /* steel blue for blush/mint background */
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+3),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+2) {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #103f73; /* strong navy to contrast turquoise/light blue bg */
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+4),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+8) {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #dbe7ff;
+  color: #111a2c; /* bold black-navy for high contrast */
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+5),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+7) {
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #3e3e3e; /* charcoal gray for yellows/oranges */
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+6),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+9) {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #254d73; /* muted dark blue for icy or pastel blue */
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+7),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+4) {
+  font-family: "Times New Roman", Times, serif;
+  color: #3a4466; /* moderate navy for mint/peach backgrounds */
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+8),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+1) {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #0f3057; /* ink blue for pinks and soft cyan */
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+9),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+6) {
+  font-family: Impact, Charcoal, sans-serif;
+  color: #1c1c1c; /* near-black for neon/yellow bg */
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(10n+10),
+.ransom-note span:nth-child(2n+2) span:nth-child(10n+3) {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #354b7c; /* deeper shade of blue for soft backgrounds */
+}
+
+/* Vertical margins and capitalization */
+
+.ransom-note span:nth-child(2n+1) span:nth-child(5n+1),
+.ransom-note span:nth-child(2n+2) span:nth-child(5n+3) {
+  margin-top: -0.15em;
+  text-transform: uppercase;
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(5n+2),
+.ransom-note span:nth-child(2n+2) span:nth-child(5n+1) {
+  margin-top: 0.25em;
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(5n+3),
+.ransom-note span:nth-child(2n+2) span:nth-child(5n+4) {
+  margin-top: -0.2em;
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(5n+4),
+.ransom-note span:nth-child(2n+2) span:nth-child(5n+5) {
+  margin-top: 0.25em;
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(5n+5),
+.ransom-note span:nth-child(2n+2) span:nth-child(5n+2) {
+  margin-top: -0.18em;
+  text-transform: uppercase;
+}
+
+/* Font sizes */
+
+.ransom-note span:nth-child(2n+1) span:nth-child(4n+1),
+.ransom-note span:nth-child(4n+2) span:nth-child(4n+2) {
+  font-size: 1.15em;
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(4n+2),
+.ransom-note span:nth-child(4n+2) span:nth-child(4n+1) {
+  font-size: 0.8em;
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(4n+3),
+.ransom-note span:nth-child(4n+2) span:nth-child(4n+4) {
+  font-size: 1.05em;
+}
+
+.ransom-note span:nth-child(2n+1) span:nth-child(4n+4),
+.ransom-note span:nth-child(4n+2) span:nth-child(4n+3) {
+  font-size: 0.65em;
+}
+
+/* Italic style */
+
+.ransom-note span:nth-child(2n+1) span:nth-child(8n+5),
+.ransom-note span:nth-child(2n+2) span:nth-child(6n+2) {
+  font-style: italic;
+  padding-right: 6px;
+}
+
+/* Font color overrides */
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+1),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+6) {
+  background-color: #FF6B6B; /* coral red */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+2),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+7) {
+  background-color: #6BCB77; /* mint green */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+3),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+9) {
+  background-color: #4D96FF; /* electric blue */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+4),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+11) {
+  background-color: #FFC75F; /* soft orange-yellow */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+5),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+2) {
+  background-color: #845EC2; /* purple pastel */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+6),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+1) {
+  background-color: #F9F871; /* neon yellow */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+7),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+12) {
+  background-color: #00C9A7; /* turquoise */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+8),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+4) {
+  background-color: #FDE2E4; /* blush pink */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+9),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+3) {
+  background-color: #A0E7E5; /* icy aqua */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+10),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+5) {
+  background-color: #B9FBC0; /* soft green pastel */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+11),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+8) {
+  background-color: #FFB5E8; /* baby pink */
+}
+
+.ransom-note span:nth-child(2n+1) > span:nth-child(12n+12),
+.ransom-note span:nth-child(2n+2) > span:nth-child(12n+10) {
+  background-color: #D0F4DE; /* mint foam */
+}
+.card {
+  background-color: #122b52;
+  border: 2px solid #5ea0fc;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 300px auto 50px; /* 🎯 nicely lowered but not too far */
+  width: 80%;
+  color: #cfdcff;
+  box-shadow: 0 0 15px #5ea0fc, 0 0 25px #3a79ff;
+  font-size: 28px;
+}
+
+
+
+.card h3 {
+  margin-top: 0;
+  font-size: 36px;
+  color: #a3cdfd;
+}
